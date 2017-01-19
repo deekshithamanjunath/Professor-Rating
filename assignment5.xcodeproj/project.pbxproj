@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C5D430EF1DD67A5C000BB2B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D430EE1DD67A5C000BB2B0 /* AppDelegate.swift */; };
-		C5D430F11DD67A5C000BB2B0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D430F01DD67A5C000BB2B0 /* FirstViewController.swift */; };
-		C5D430F31DD67A5C000BB2B0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D430F21DD67A5C000BB2B0 /* SecondViewController.swift */; };
 		C5D430F61DD67A5C000BB2B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D430F41DD67A5C000BB2B0 /* Main.storyboard */; };
 		C5D430F81DD67A5C000BB2B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D430F71DD67A5C000BB2B0 /* Assets.xcassets */; };
 		C5D430FB1DD67A5C000BB2B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D430F91DD67A5C000BB2B0 /* LaunchScreen.storyboard */; };
 		C5D431061DD67A5C000BB2B0 /* assignment5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D431051DD67A5C000BB2B0 /* assignment5Tests.swift */; };
 		C5D431111DD67A5C000BB2B0 /* assignment5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D431101DD67A5C000BB2B0 /* assignment5UITests.swift */; };
+		C5D431211DD6831B000BB2B0 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D431201DD6831B000BB2B0 /* InformationViewController.swift */; };
+		C5D431231DD6837C000BB2B0 /* InstructorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D431221DD6837C000BB2B0 /* InstructorsTableViewController.swift */; };
+		C5D431BD1DD6C4C3000BB2B0 /* launch image.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D431BC1DD6C4C3000BB2B0 /* launch image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +37,7 @@
 
 /* Begin PBXFileReference section */
 		C5D430EB1DD67A5C000BB2B0 /* assignment5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment5.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5D430EE1DD67A5C000BB2B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5D430F01DD67A5C000BB2B0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		C5D430F21DD67A5C000BB2B0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C5D430EE1DD67A5C000BB2B0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5D430F51DD67A5C000BB2B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5D430F71DD67A5C000BB2B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5D430FA1DD67A5C000BB2B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		C5D4310C1DD67A5C000BB2B0 /* assignment5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignment5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D431101DD67A5C000BB2B0 /* assignment5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment5UITests.swift; sourceTree = "<group>"; };
 		C5D431121DD67A5C000BB2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D431201DD6831B000BB2B0 /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		C5D431221DD6837C000BB2B0 /* InstructorsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructorsTableViewController.swift; sourceTree = "<group>"; };
+		C5D431BC1DD6C4C3000BB2B0 /* launch image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch image.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 		C5D430ED1DD67A5C000BB2B0 /* assignment5 */ = {
 			isa = PBXGroup;
 			children = (
+				C5D431BC1DD6C4C3000BB2B0 /* launch image.png */,
 				C5D430EE1DD67A5C000BB2B0 /* AppDelegate.swift */,
-				C5D430F01DD67A5C000BB2B0 /* FirstViewController.swift */,
-				C5D430F21DD67A5C000BB2B0 /* SecondViewController.swift */,
+				C5D431201DD6831B000BB2B0 /* InformationViewController.swift */,
 				C5D430F41DD67A5C000BB2B0 /* Main.storyboard */,
+				C5D431221DD6837C000BB2B0 /* InstructorsTableViewController.swift */,
 				C5D430F71DD67A5C000BB2B0 /* Assets.xcassets */,
 				C5D430F91DD67A5C000BB2B0 /* LaunchScreen.storyboard */,
 				C5D430FC1DD67A5C000BB2B0 /* Info.plist */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D430FB1DD67A5C000BB2B0 /* LaunchScreen.storyboard in Resources */,
+				C5D431BD1DD6C4C3000BB2B0 /* launch image.png in Resources */,
 				C5D430F81DD67A5C000BB2B0 /* Assets.xcassets in Resources */,
 				C5D430F61DD67A5C000BB2B0 /* Main.storyboard in Resources */,
 			);
@@ -262,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D430F31DD67A5C000BB2B0 /* SecondViewController.swift in Sources */,
 				C5D430EF1DD67A5C000BB2B0 /* AppDelegate.swift in Sources */,
-				C5D430F11DD67A5C000BB2B0 /* FirstViewController.swift in Sources */,
+				C5D431231DD6837C000BB2B0 /* InstructorsTableViewController.swift in Sources */,
+				C5D431211DD6831B000BB2B0 /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
